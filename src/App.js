@@ -59,7 +59,15 @@ useEffect(() => {
       <video autoPlay muted loop>
     <source src={video} type="video/mp4" />
         </video>
-       <h1>Nutrition Analysis</h1>
+        <h1>Nutrition Analysis</h1> 
+      </div >
+      
+      <div className='container'>
+        <h3>Please enter the required amount of ingredients</h3>
+      </div>
+
+      <div className='container'>
+      <p className='example'>(for example: 2 cup rice, 10 potatoes etc.)</p>
       </div>
 
       <div className='container'>
@@ -85,7 +93,7 @@ useEffect(() => {
         {
           myNutritionComponents && Object.values(myNutritionComponents.totalNutrients)
             .map(({ label, quantity, unit }) =>
-              <NutritionComponent
+              <NutritionComponent 
                 label={label}
                 quantity={quantity}
                 unit={unit}

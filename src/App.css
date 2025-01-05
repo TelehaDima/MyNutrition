@@ -19,6 +19,20 @@ h1 {
     justify-content: center;
     color: white;
 }
+h3{
+    font-size: 30px;
+    font-family: "Platypi", serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.example{
+    font-size: 15px;
+    font-family: "Platypi", serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
 h2 {
     font-size: 35px;
     font-family: "Platypi", serif;
